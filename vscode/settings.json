@@ -1,0 +1,54 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "editor.tabSize": 4,
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 100
+    },
+    "editor.renderWhitespace": "all",
+    "go.formatTool": "gofmt",
+    "rust-client.channel": "nightly",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
+    "gitlens.defaultDateStyle": "relative",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.historyExplorer.enabled": true,
+    "cmake.buildDirectory": "${workspaceRoot}/../builds/${workspaceRootFolderName}-vscode",
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.default.compileCommands": "${workspaceRoot}/../builds/${workspaceRootFolderName}-vscode/compile_commands.json",
+    "breadcrumbs.enabled": true,
+    "codebucket.bitbucketServerHosts": [
+        {
+            "gitHost": "bitbucket.bln.native-instruments.de:7999",
+            "webHost": "https://bitbucket.bln.native-instruments.de"
+        }
+    ],
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "logFileHighlighter.customPatterns": [
+        // Native Access log highlighting
+        {
+            "pattern": "^.+W].+$",
+            "foreground": "orange"
+        },
+        {
+            "pattern": "^.+C].+$",
+            "foreground": "red"
+        },
+        {
+            "pattern": "^.+F].+$",
+            "foreground": "red"
+        },
+        {
+            "pattern": "^.+========================= Starting Native Access =========================$",
+            "foreground": "violet"
+        }
+    ],
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true
+}
